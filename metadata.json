@@ -1,0 +1,6 @@
+{
+  "name": "Duke Nutrition Experts",
+  "description": "Award-winning functional nutrition practice providing clinical evaluations, mediator release testing (MRT), micronutrient testing, and personalized anti-inflammatory dietary therapy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
