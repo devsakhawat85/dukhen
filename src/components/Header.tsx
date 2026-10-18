@@ -61,26 +61,14 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex items-center shrink-0">
             <button
               onClick={() => handleLinkClick('home')}
-              className="flex items-center gap-3 text-left group focus-visible:outline-none"
+              className="flex items-center text-left group focus-visible:outline-none cursor-pointer"
               aria-label="Duke Nutrition Experts Home"
             >
               <img
                 src="/images/logo_primary.png"
                 alt="Duke Nutrition Experts"
-                className="h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
-                onError={(e) => {
-                  // Fallback to text logo if image unavailable
-                  e.currentTarget.style.display = 'none';
-                }}
+                className="h-12 sm:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
               />
-              <div className="flex flex-col">
-                <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-stone-900 leading-tight">
-                  Duke Nutrition
-                </span>
-                <span className="text-[11px] uppercase tracking-widest text-[#5C6E2E] font-semibold">
-                  Experts · Functional Care
-                </span>
-              </div>
             </button>
           </div>
 

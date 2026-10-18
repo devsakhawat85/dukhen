@@ -34,23 +34,12 @@ export const Footer: React.FC<FooterProps> = ({
           
           {/* Col 1 & 2: Brand Identity & Clinical Philosophy */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center">
               <img
                 src="/images/logo_primary.png"
                 alt="Duke Nutrition Experts"
-                className="h-11 w-auto brightness-0 invert opacity-95"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                }}
+                className="h-12 w-auto brightness-0 invert opacity-95"
               />
-              <div>
-                <span className="font-serif text-xl font-bold tracking-tight text-white block">
-                  Duke Nutrition Experts
-                </span>
-                <span className="text-xs uppercase tracking-widest text-[#B9C979] font-medium block">
-                  Clinical & Functional Practice
-                </span>
-              </div>
             </div>
 
             <p className="text-sm text-stone-400 leading-relaxed max-w-sm">
